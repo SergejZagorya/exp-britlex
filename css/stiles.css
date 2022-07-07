@@ -1,0 +1,107 @@
+:root {
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #f5f5f5;
+  --title-color: #000000;
+  --secondary-title-color: #263238;
+  --text-color: #8f95a5;
+  --main-weight: 400;
+  --secondary-weight: 600;
+  --tertiary-weight: 500;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.button {
+  padding: 0;
+}
+
+body {
+  width: 1600px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  background-color: rgb(217, 226, 204);
+  color: var(--text-color);
+}
+
+/* HEADER */
+
+.logo {
+  font-weight: var(--main-weight);
+  font-size: 36px;
+  line-height: 1.5;
+  color: var(--title-color);
+}
+
+.accent {
+  color: #939393;
+}
+
+.header-list {
+  font-weight: var(--tertiary-weight);
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.header-link {
+  color: var(--secondary-title-color);
+}
+
+.header-btn {
+  position: absolute;
+  width: 220px;
+  height: 70px;
+  left: 1249px;
+  top: 58px;
+
+  border: 2px solid var(--secondary-title-color);
+  border-radius: 5px;
+  background-color: var(--primary-background-color);
+}
+
+/* HERO */
+.hero-title {
+  font-weight: var(--secondary-weight);
+  font-size: 64px;
+  line-height: 1.25;
+  color: var(--title-color);
+}
+.hero-text {
+  font-weight: var(--main-weight);
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.hero-btn {
+  position: absolute;
+  width: 438px;
+  height: 118px;
+  left: 600px;
+  top: 800px;
+  color: var(--primary-background-color);
+
+  background: var(--secondary-title-color);
+  border-radius: 15px;
+}
+
+/* SKILLS */
+
+.skills-title {
+  font-weight: var(--secondary-weight);
+  font-size: 48px;
+  line-height: 1.6;
+  color: var(--title-color);
+}
